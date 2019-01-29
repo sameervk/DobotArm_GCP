@@ -25,7 +25,7 @@ session = session_client.session_path(project, session_ID)
 #Audio Streaming
 
 # Importing module recording, requires installation of sounddevice
-from recording_sounddevice import record_stream
+from GCP_Dobot_modules.recording_sounddevice import record_stream
 # Parameters for recording  
 CHUNK = 1024
 FORMAT = 'int16' 
